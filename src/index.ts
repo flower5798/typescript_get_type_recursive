@@ -39,9 +39,7 @@ class Main {
       default:
         // if object
         if (Array.isArray(obj)) {
-          // TODO: ここを機能追加（型が）
           if (obj.length > 0) {
-            // code...
             let arrayChildrenInstanceName = obj[0].constructor.name;
             let arrayChildrenType = obj[0].constructor.name;
             let isAllChildrenSameType = true;
